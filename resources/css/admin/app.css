@@ -1,0 +1,269 @@
+body, html {
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+.inline {
+    display: inline;
+}
+.pointer {
+    cursor: pointer;
+}
+.card-body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.card-body.p-3 {
+    padding: 1rem!important;
+}
+.card-body.p-3 .form-control {
+    height: 1.8rem !important;
+    width: 100%;
+}
+.card-body.p-3 .form-group {
+    margin-bottom: 1rem !important;
+}
+.card-body.p-3 label {
+    margin-right: 0.5rem !important;
+}
+.table td, .table th {
+    border-top: unset;
+}
+.table {
+    margin: 0;
+}
+.header-form-controls .form-control {
+    height: 2rem !important;
+}
+.header-form-controls .form-group {
+    margin-bottom: unset !important;
+}
+
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.input-group-unstyled .input-group-addon {
+    border-radius: 4px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.large-font {
+    font-size: 1.6rem;
+    color: gray;
+}
+li.nav-item  {
+    position: relative !important;
+}
+li.nav-item span.badge {
+    position: absolute !important;
+    top: -3px !important;
+    right: 8px !important;
+    font-size: 70% !important;
+}
+.sub-title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.card {
+    margin-bottom: 1.5rem;
+    height: 100%;
+}
+.navbar-brand-full {
+    font-size: 17px;
+    color: #c8d2da;
+}
+.navbar-brand-full i {
+    color: #fff;
+    font-size: 26px !important;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.navbar-brand-full img {
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.sidebar .navbar-brand .navbar-brand-full {
+    font-size: 15px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 8px .5rem;
+    font-size: .765625rem;
+    line-height: 1.1;
+    vertical-align: inherit;
+}
+select.form-control {
+    padding: 0rem .75rem;
+}
+.select2-container--default {
+    width: 100% !important;
+}
+
+a.input-button {
+    text-decoration: none;
+    border: 1px solid #bbb;
+    display: inline-block;
+    padding: 8.5px 12px;
+    border-left: 0;
+    cursor: pointer;
+    align-self: center;
+    justify-content: center;
+    line-height: 1;
+}
+input[type=date], .flatpickr-input {
+    display: block;
+    position: relative;
+    background: white !important;
+}
+.input-group-prepend {
+    position: absolute;
+    top: 29px;
+    right: 0;
+    z-index: 5;
+}
+.modal .input-group-prepend {
+    position: unset;
+}
+.login.input-group-prepend {
+    position: unset;
+}
+@media (max-width: 992px) {
+    .app-header .navbar-brand {
+        width: 27%;
+    }
+}
+@media (max-width: 550px) {
+    .app-header .navbar-brand {
+        width: 55%;
+        left: 37%;
+    }
+    .navbar-brand-full i {
+        font-size: 20px !important;
+        vertical-align: middle;
+    }
+    .app-header .nav-item {
+        min-width: 37px;
+    }
+}
+.remove-down-icon::after {
+    display: none;
+}
+.dropdown-item i {
+    color: black;
+    margin-right: 0;
+}
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+    padding: 1.5rem !important;
+}
+.dataTables_length select {
+    width: 60px !important;
+}
+table.dataTable {
+    width: 100% !important;
+}
+.dataTable thead th:first-child,
+.dataTable tbody td:first-child {
+    padding-left: 1.6rem;
+}
+.sidebar .nav-dropdown.open>.nav-dropdown-items {
+    padding-left: 28px;
+}
+.right-input-addon .input-group-prepend {
+    right: unset;
+    left: 0;
+}
+.right-input-addon .input-group-prepend a {
+    line-height: 1;
+    background-color: #ced5da;
+}
+.right-input-addon .form-control {
+    padding-left: 36px;
+}
+.datatable-search-input {
+    top: 0;
+    right: 0;
+    height: 27px;
+    line-height: 27px;
+}
+.dataTables_filter label {
+    position: relative;
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.01);
+}
+.btn-secondary {
+    background-color: #f2f4f7;
+    border-color: #c8ced3;
+}
+.clickable-table tbody tr {
+    cursor: pointer;
+}
+.css-loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#process-renewal-modal .modal-body .row .col-12 label p, .modal-big-text {
+    font-size: 17px;
+}
+#process-renewal-modal .modal-body .row .col-12 label p:first-child, .modal-point {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#process-renewal-modal .modal-body .row .col-12 .custom-control-label::before {
+    top: 0.50rem;
+    left: 23px;
+}
+#process-renewal-modal .modal-body .row .col-12 .custom-control-label::after {
+    top: 0.50rem;
+    left: 23px;
+}
+#process-renewal-modal .modal-body .row .col-12 .custom-control {
+    padding-left: 4.5rem;
+}
+.inactive-icon {
+    color: #bec5cb;
+}
+.modal#renewal-changes-model .form-control {
+    height: 1.8rem;
+}
+.modal#renewal-changes-model .row {
+    padding: 5px 0;
+}
+.modal#detail-changes-modal .row {
+    margin-bottom: 4px;
+}
+.select2-is-invalid {
+    border-color: #f86c6b !important;
+}
+.card-body.p-3 textarea.form-control {
+    height: auto !important;
+ }
+.w-unset {
+    width: 1% !important;
+}
